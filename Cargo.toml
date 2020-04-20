@@ -1,0 +1,15 @@
+[package]
+name = "libnotify-sys"
+version = "0.1.0"
+links = "notify"
+build = "build.rs"
+authors = ["Benjamin Gorny <ben.gorny@web.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+#bindgen = "0.53.2"
+pkg-config = "0.3.17"
